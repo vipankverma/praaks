@@ -71,15 +71,17 @@ error_reporting(0);
 
 
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+<ul class="top_menu_bar">
                                             <ul class="nav navbar-nav navbar-right">
+
                                                 <li><a href="#pricing">SERVICES</a></li>
-                                                <li><a href="#portfolio">PORTFOLIO</a></li>
+                                                <li><a href="#portfolio">CLIENTS</a></li>
                                                 <li><a href="#blog">BLOG</a></li>
                                                 <li><a href="#history">ABOUT US</a></li>
                                                 <li><a  class="menu-btn" href="#form">BECOME OUR CLIENT</a></li>
 
                                             </ul>
+                                          </ul>
 
 
                                         </div>
@@ -105,27 +107,27 @@ error_reporting(0);
                                     <div class="main_home_slider text-center">
                                         <div class="single_home_slider">
                                             <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                                <h1>YOUR DIGITAL CONCIERGE</h1>
+                                                <h1>DIGITAL TRANSFORMATION CONSULTING</h1>
                                                 <div class="separator"></div>
-                                                <p>We integrate strategy, design, and technology to build the future. From consumer experiences to enterprise systems, we build human experiences people love.
+
+                                                <p>Integrate strategy, design, and technology to build the future
+                                            </div>
+                                        </div>
+                                        <div class="single_home_slider">
+                                            <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+
+                                                <h1>DIGITAL TRANSFORMATION CONSULTING</h1>
+                                                <div class="separator"></div>
+                                                <p>We integrate strategy, design, and technology to build the future
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="single_home_slider">
                                             <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                                <h3>Our Clients Are Our First Priority</h3>
-                                                <h1>YOUR DIGITAL CONCIERGE</h1>
+
+                                                <h1>DIGITAL TRANSFORMATION CONSULTING</h1>
                                                 <div class="separator"></div>
-                                                <p>We integrate strategy, design, and technology to build the future. From consumer experiences to enterprise systems, we build human experiences people love.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="single_home_slider">
-                                            <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                                <h3>Our Clients Are Our First Priority</h3>
-                                                <h1>YOUR DIGITAL CONCIERGE</h1>
-                                                <div class="separator"></div>
-                                                <p>We integrate strategy, design, and technology to build the future. From consumer experiences to enterprise systems, we build human experiences people love.
+                                                <p>We integrate strategy, design, and technology to build the future
                                                 </p
                                             </div>
                                         </div>
@@ -153,9 +155,10 @@ error_reporting(0);
                                         <i class="fa fa"><img src="assets/images/2.Clean-Code-32px.png" alt="" /></i>
                                     </div>
 
-                                    <h4>Empathy</h4>
+                                    <h4>We Empathize</h4>
                                     <div class="separator3"></div>
-                                    <p>We sit with you and understand your thoughts and goals, and imbibe your sensibilities in what you’re trying to achieve.</p>
+                                    <p> We sit with you to understand your requirements, goals, and imbibe your sensibilities in what you’re trying to achieve.
+Empathy is the foundation of our strategy to fulfil your goals.</p>
                                 </div>
                             </div>
 
@@ -165,9 +168,10 @@ error_reporting(0);
                                         <i class="fa fa"><img src="assets/images/3.Creative-Ideas-32px.png" alt="" /></i>
                                     </div>
 
-                                    <h4>Innovation</h4>
+                                    <h4>We Innovate</h4>
                                     <div class="separator3"></div>
-                                    <p>You startup idea or expansion goals, whatever the motivation, we stick to innovation and take on challenges like they are our lucky charms.</p>
+                                    <p>You startup idea or expansion goals, whichever the motivation, we stick to innovation.
+We consistently evolve with time and incorporate the next level in technology and creativity.</p>
                                 </div>
                             </div>
 
@@ -176,9 +180,10 @@ error_reporting(0);
                                     <div class="single_feature_icon">
                                         <i class="fa fa"><img src="assets/images/4.Free-Support-32px.png" alt=""></i>
                                     </div>
-                                    <h4>Collaboration</h4>
+                                    <h4>We Collaborate</h4>
                                     <div class="separator3"></div>
-                                    <p>Working together is not the only approach we employ. We become a part of your team to ensure that there is no loss of vision, or execution.</p>
+                                    <p>Not only do we work well with other people but, we become a part of your team to ensure that there is no loss of vision, or execution.
+Our global team and network is our biggest strength. </p>
                                 </div>
                             </div>
 
@@ -188,9 +193,10 @@ error_reporting(0);
                                         <i class="fa fa"><img src="assets/images/1.Sleek-Design-32px.png" alt="" /></i>
                                     </div>
 
-                                    <h4>Execution</h4>
+                                    <h4>We Execute</h4>
                                     <div class="separator3"></div>
-                                    <p>Calling us hands-on would be an understatement. We deliver the solution timely while ensuring that industry standards are disrupted.</p>
+                                    <p>We are a highly process oriented team of hands-on individuals.
+                                We always deliver the desired solution timely while ensuring quality, and reliability to disrupt industry standards.</p>
                                 </div>
                             </div>
 
@@ -198,7 +204,7 @@ error_reporting(0);
                     </div>
                 </div><!--End of container -->
             </section><!--End of feature Section -->
-            <hr />
+
 
 
             <!-- Pricing Section -->
@@ -207,7 +213,7 @@ error_reporting(0);
                     <div class="row">
                         <div class="main_pricing_area sections">
                             <div class="head_title text-center">
-                                <h2>SERVICES</h2>
+                                <h2>OUR SERVICES</h2>
 
                                 <div class="separator"></div>
                             </div><!-- End off Head_title -->
@@ -215,10 +221,10 @@ error_reporting(0);
                             <div class="col-md-3 col-sm-6" >
                                 <div class="single_pricing">
                                     <div class="pricing_head">
-                                        <h3>INNOVATE</h3>
+                                        <h3>Innovate</h3>
                                         <div class="pricing_price">
-                                            <div class="p_r text-center">$19</div>
-                                            <div class="m_t text-center">per month</div>
+                                            <div class="p_r text-center"><img src="assets/images/Innovate.png"></div>
+
                                         </div>
                                     </div>
 
@@ -237,10 +243,10 @@ error_reporting(0);
                             <div class="col-md-3 col-sm-6" >
                                 <div class="single_pricing">
                                     <div class="pricing_head">
-                                        <h3>DESIGN</h3>
+                                        <h3>Design</h3>
                                         <div class="pricing_price">
-                                            <div class="p_r text-center">$19</div>
-                                            <div class="m_t text-center">per month</div>
+                                            <div class="p_r text-center"><img src="assets/images/Design.png"></div>
+                                            <div class="m_t text-center"></div>
                                         </div>
                                     </div>
 
@@ -259,10 +265,10 @@ error_reporting(0);
                             <div class="col-md-3 col-sm-6" >
                                 <div class="single_pricing">
                                     <div class="pricing_head">
-                                        <h3>DEVELOP</h3>
+                                        <h3>Develop</h3>
                                         <div class="pricing_price">
-                                            <div class="p_r text-center">$99</div>
-                                            <div class="m_t text-center">per month</div>
+                                            <div class="p_r text-center"><img src="assets/images/Develop.png"></div>
+                                            <div class="m_t text-center"></div>
                                         </div>
                                     </div>
 
@@ -271,7 +277,7 @@ error_reporting(0);
                                             <li>Progressive Web Applications</li>
                                             <li>Websites</li>
                                             <li>Enterprise Systems</li>
-                                            <li>Mobile Applica9ons</li>
+                                            <li>Mobile Applications</li>
                                         </ul>
 
                                     </div>
@@ -280,10 +286,10 @@ error_reporting(0);
                             <div class="col-md-3 col-sm-6" >
                                 <div class="single_pricing">
                                     <div class="pricing_head">
-                                        <h3>GROW</h3>
+                                        <h3>Grow</h3>
                                         <div class="pricing_price">
-                                            <div class="p_r text-center">$99</div>
-                                            <div class="m_t text-center">per month</div>
+                                            <div class="p_r text-center"><img src="assets/images/Grow.png"></div>
+                                            <div class="m_t text-center"></div>
                                         </div>
                                     </div>
 
@@ -291,7 +297,7 @@ error_reporting(0);
                                         <ul>
                                             <li>Digital Marketing Strategy</li>
                                             <li>Optimization /Analysis</li>
-                                            <li>Interac9ve Videos</li>
+                                            <li>Intereactive Videos</li>
                                             <li>SEO & Content Marketing</li>
                                         </ul>
 
@@ -301,10 +307,10 @@ error_reporting(0);
                             <div class="col-md-3 col-sm-6" >
                                 <div class="single_pricing">
                                     <div class="pricing_head">
-                                        <h3>SUSTAIN</h3>
+                                        <h3>Sustain</h3>
                                         <div class="pricing_price">
-                                            <div class="p_r text-center">$99</div>
-                                            <div class="m_t text-center">per month</div>
+                                            <div class="p_r text-center"><img src="assets/images/Sustain.png"></div>
+                                            <div class="m_t text-center"></div>
                                         </div>
                                     </div>
 
@@ -327,11 +333,11 @@ error_reporting(0);
 
             <section id="portfolio" class="portfolio sections">
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row_client">
                         <div class="main_portfolio">
                             <div class="col-sm-12">
                                 <div class="head_title text-center">
-                                    <h2>RECENT WORKS</h2>
+                                    <h2>Our Clients</h2>
 
                                     <div class="separator"></div>
                                 </div>
@@ -352,7 +358,7 @@ error_reporting(0);
                                     Mobile Apps</button>/
                                     <button class="btn-md fil-cat filter" data-rel="marketing" data-filter=".marketing">
                                     Digital Marketing</button>
-                                    
+
                                 </div>
 
                             </div>
@@ -360,20 +366,22 @@ error_reporting(0);
                             <div style="clear:both;"></div>
                             <div id="portfoliowork">
                                 <div class="single_portfolio tile scale-anm web grid-item-width2 design" >
-                                    <img src="assets/images/I_Say_Organic1.png" alt="" />
-                                    <a href="assets/images/I_Say_Organic1.png" class="portfolio-img">
+                                    <img src="assets/images/Praaks_ISO1.jpg" alt="" />
+                                    <a href="assets/images/Praaks_ISO1.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>I SAY ORGANIC</h3>                                            
+                                            <h3>I Say Organic</h3>
+                                            <p>Product Strategy, UI/UX Design <p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="single_portfolio tile scale-anm web design" >
-                                    <img src="assets/images/Recent-Work-2.jpg" alt="" />
-                                    <a href="assets/images/Recent-Work-2.jpg" class="portfolio-img">
+                                    <img src="assets/images/escapex2.png" alt="" />
+                                    <a href="assets/images/escapex2.png" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
                                             <h3>EscapeX</h3>
+                                            <p>Product Strategy, UI/UX Design</p>
                                         </div>
                                     </a>
                                 </div>
@@ -382,16 +390,18 @@ error_reporting(0);
                                     <a href="assets/images/Jovees3.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>Jovees</h3>
+                                            <h3>Jovees Herbal</h3>
+                                            <p>UI/UX Design, Branding & Graphic</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="single_portfolio tile scale-anm web video" >
-                                    <img src="assets/images/TATA4.png" alt="" />
-                                    <a href="assets/images/TATA4.png" class="portfolio-img">
+                                    <img src="assets/images/Praaks_AIG(4).jpg" alt="" />
+                                    <a href="assets/images/Praaks_AIG(4).jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
                                             <h3>TATA AIG</h3>
+                                            <p>Product Strategy, Mobile Apps </p>
                                         </div>
                                     </a>
                                 </div>
@@ -401,6 +411,7 @@ error_reporting(0);
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
                                             <h3>Cohoma Coffee Company</h3>
+                                            <p>Web Apps, Digital Marketing</p>
                                         </div>
                                     </a>
                                 </div>
@@ -411,6 +422,7 @@ error_reporting(0);
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
                                             <h3>HDFC Ergo </h3>
+                                            <p>UI/UX Design, Digital Marketing</p>
                                         </div>
                                     </a>
                                 </div>
@@ -420,6 +432,7 @@ error_reporting(0);
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
                                             <h3>Golf Digest India</h3>
+                                            <p>Product Strategy, Digital Marketing</p>
                                         </div>
                                     </a>
                                 </div>
@@ -430,6 +443,7 @@ error_reporting(0);
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
                                             <h3>Bharany’s</h3>
+                                            <p>Enterprise Systems, Branding & Graphic</p>
                                         </div>
                                     </a>
                                 </div>
@@ -464,7 +478,7 @@ error_reporting(0);
                                                     <div class="s_study_icon">
                                                         <i><img src="assets/images/8.Case-Study-32px.png"/></i>
                                                     </div>
-                                                    <h4>DEVELOPMENT</h4>
+                                                    <h4>HDFC Ergo</h4>
                                                     <div class="separator3"></div>
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.
                                                         Lorem Ipsum is simply dummy text of the printing and typesetting let.
@@ -476,7 +490,7 @@ error_reporting(0);
                                                     <div class="s_study_icon">
                                                         <i class="fa fa-lightbulb-o"></i>
                                                     </div>
-                                                    <h4>CREATIVE IDEAS</h4>
+                                                    <h4>I Say Organic</h4>
                                                     <div class="separator3"></div>
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.
                                                         Lorem Ipsum is simply dummy text of the printing and typesetting let.
@@ -488,7 +502,7 @@ error_reporting(0);
                                                     <div class="s_study_icon">
                                                         <i class="fa fa-lightbulb-o"></i>
                                                     </div>
-                                                    <h4>GROWTH</h4>
+                                                    <h4>Cohoma Coffee Company</h4>
                                                     <div class="separator3"></div>
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.
                                                         Lorem Ipsum is simply dummy text of the printing and typesetting let.
@@ -753,14 +767,14 @@ error_reporting(0);
                     <div class="row">
                         <div class="main_history">
                             <div class="col-sm-6">
-                                <div class="single_history_img">
+                                <div class="about_image_1">
                                     <img src="assets/images/AboutUs.jpg" alt="" />
                                 </div>
                             </div>
 
                             <div class="col-sm-6">
                                 <div class="single_history_content">
-                                    <div class="head_title">
+                                    <div class="about_image_text">
                                         <h2>ABOUT US</h2>
                                     </div>
                                     <p>We are a team of curious, empathetic, creative, and energetic individuals who find joy in solving problems. You can consider us your Digital Concierge, your Technology Partner, your Innovation Guide and your Creative Evangelist. Let’s bring your ideas to life! </p>
@@ -880,8 +894,8 @@ error_reporting(0);
                                                         <div class="single_contact_info">
                                                             <div class="single_info_text">
                                                                 <h3>OUR ADDRESS</h3>
-                                                                <h4>House #13, Streat road, Sydney
-                                                                    2310 Australia</h4>
+                                                                <h4>N-14, KAILASH COLONY,
+                                                                    NEW DELHI, 110048</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -898,7 +912,7 @@ error_reporting(0);
                                                         <div class="single_contact_info">
                                                             <div class="single_info_text">
                                                                 <h3>EMAIL US</h3>
-                                                                <h4>contactus@email.com</h4>
+                                                                <h4>ACCOUNTS@PRAAKS.COM</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -929,18 +943,25 @@ error_reporting(0);
                                                         </div>
                                                         <div class="col-sm-12">
                                                             <div class="form-group">
-                                                                <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                                                                <input type="text" class="form-control" name="Comapny" placeholder="Company" required="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="How did you hear about us" placeholder="How did you hear about us" required="">
                                                             </div>
                                                         </div>
                                                     </div>
 
 
+
                                                     <div class="form-group">
                                                         <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+
                                                     </div>
 
                                                     <div class="">
-                                                        <input type="submit" value="SEND MESSAGE" class="btn btn-lg">
+                                                        <input type="submit" value="SUBMIT" class="btn btn-lg">
                                                     </div>
                                                 </div>
                                             </form>
@@ -978,6 +999,7 @@ error_reporting(0);
                                         <h4>Contct Us.
                                             Cancel anytime. No catches.</h4>
                                         <a href="" class="btn btn-lg">start free trial</a>
+
                                     </div>
                                 </div>
                             </div>
@@ -1014,7 +1036,8 @@ error_reporting(0);
                         </div>
                     </div>
                 </div>
-            </section><!-- End off footer Section-->
+            </section>
+            <!-- End off footer Section-->
 
 
 
@@ -1026,7 +1049,7 @@ error_reporting(0);
 
 
 
-        </div>
+
 
         <!-- START SCROLL TO TOP  -->
 

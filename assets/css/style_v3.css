@@ -10,7 +10,7 @@ Author URI: http://bootstrapthemes.co
 html,
 body {
     background-color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     color: #797979;
     width: 100%;
     padding: 0;
@@ -18,8 +18,9 @@ body {
     margin-right: 0;
     font-weight: 300;
     width:100%;
-    font-family: 'ralewayregular';
+    font-family: 'Roboto';
 }
+
 .preloader {
     position: fixed;
     top: 0;
@@ -92,6 +93,16 @@ p {
 
 img {
     max-width: 100%;
+    margin-top: 0px;
+}
+.about_image_1{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  max-width: 500px;
+}
+.about_image_text{
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 textarea,
 input[type="text"],
@@ -154,10 +165,11 @@ h5 {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 5.143rem;
+    font-size: 55px;
     line-height: 5.5rem;
-    color:#fff;
+    color:#035fd8;
     letter-spacing: .4rem;
+
 }
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -176,11 +188,12 @@ h3 {
 }
 h4 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 1.286rem;
+    font-weight: 0;
+    font-size: 22px;
     line-height: 2rem;
     margin-bottom: 1rem;
-    text-transform: uppercase;
+    color: #000;
+
 }
 /*h5 {
     font-size: 1.125rem;
@@ -194,7 +207,10 @@ h6 {
 }*/
 p {
     line-height: 2rem;
-    font-size: 0.875rem;
+    font-size: 16px;
+    text-align: center;
+    margin: 7px;
+
 }
 p:last-child {
     margin-bottom: 0px;
@@ -267,7 +283,7 @@ section .subtitle-half h5 {
     font-size: 17px;
 }
 ul{
-    margin:0;
+    margin-left:0;
     padding:0;
     list-style:none;
 }
@@ -350,9 +366,9 @@ Separator
     background: #888888;
 }
 .separator4 {
-    height: 2px;
+    height: 0px;
     width: 30px;
-    margin:20px 0px;
+    margin:-5px 0px;
     background: #f38181;
 }
 
@@ -414,16 +430,36 @@ Button
     box-shadow: 0px 2px 2px 1px rgba(221, 221, 221, 0.6);
       color:#fff;
 }
-.menu-btn{    
-    background: transparent;
-    border:3px solid #035fd8;
-    border-radius: 10px;
+.menu-btn{
+    background-color: transparent;
+
+
     color:#035fd8;
+    box-sizing: border-box;
+    outline: 3px solid #035fd8;
+    display: inline-block;
+    text-shadow: 0 2px 5px rgba(0,0,0,.025);
+    margin-left: 24px;
+    z-index: 999;
+    position: relative;
+    left: -10px;
+    padding: 0px 0px 0px 0px;
 }
-.menu-btn:hover{        
+.menu-btn:hover{
     box-shadow: 0px 2px 2px 1px rgba(221, 221, 221, 0.6);
     color:#fff;
     background: #035fd8;
+    background-color: transparent;
+
+
+    color:#035fd8;
+    box-sizing: border-box;
+    outline: 3px solid #035fd8;
+    display: inline-block;
+    text-shadow: 0 2px 5px rgba(0,0,0,.025);
+    margin-left: 24px;
+    z-index: 999;
+    position: relative;
 }
 .btn-default{
     background: transparent;
@@ -437,12 +473,14 @@ Button
 .btn-lg{
     background: #035fd8;
     padding: 1.125rem 3rem;
+    font-size: 14px;
 }
 .btn-md{
     background: #999999;
     padding: 1rem 2rem;
     border: 1px solid transparent;
 }
+
 
 /*
 Extra height css
@@ -563,7 +601,7 @@ input::-ms-input-placeholder {
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color:rgba(255, 255, 255, 0.64);
+    background-color:rgba(255, 255, 255, 0.92);
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
@@ -579,6 +617,7 @@ input::-ms-input-placeholder {
     border-color: transparent;
     transition: all .6s;
     margin: 15px auto;
+    margin-right: -75px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color: #035fd8;
@@ -595,17 +634,21 @@ input::-ms-input-placeholder {
 }
 
 .main_menu_bg .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size:14px;
     color: #000000;
+    font-weight: 600;
 }
 .navbar-brand {
     padding: 0px 15px;
 }
 .navbar-brand>img {
-    max-width: 80%;
+  max-width: 103%;
+margin-left: -23px;
+margin-right: auto;
+margin-top: -5px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
@@ -646,7 +689,7 @@ input::-ms-input-placeholder {
 
 .scrooldown{
     position: absolute;
-    left: 48.5%;
+    left: 48%;
     bottom: -2%;
     width: 40px;
     height: 40px;
@@ -672,6 +715,7 @@ input::-ms-input-placeholder {
 
 .head_title{
     margin-bottom:2px;
+    padding-top: 30px;
 }
 .head_title h3{
     color:#413d4b;
@@ -681,8 +725,12 @@ input::-ms-input-placeholder {
 }
 /*home section*/
 .home{
-    background: url(../images/Homepage-slider-1.1.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../images/Praaks-cover-2.jpg) no-repeat center center;
+
+    width: 100%;
+    height: 760px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 .home_skew_border{
     position: relative;
@@ -715,15 +763,15 @@ input::-ms-input-placeholder {
 
 
 .main_home h1{
-    color: #fff;
+    color: ##f51c1c;
     margin-bottom:20px;
 }
 .main_home p{
-    color: #fff;
+    color: #000;
     max-width: 60%;
     margin: 0 auto;
     padding-bottom: 30px;
-    font-size:1.125rem;
+    font-size:20px;
 
 }
 
@@ -844,7 +892,7 @@ input::-ms-input-placeholder {
 }
 .main_service .single_service_img img {
     width: 100%;
-    height: 100%;
+    height: 631px;
 }
 
 .main_service .single_service.single_service_text {
@@ -894,13 +942,13 @@ button.btn-md {
     color: #444;
     letter-spacing: 1px;
     margin: 0;
-    font-size: 0.8125rem;
+    font-size: 14px;
     border-radius: 0px;
     margin-top: 0px;
     background-color: transparent;
     transition: .5s;
     border: 0px solid #035fd8;
-    font-family: 'montserratregular';
+    font-family: 'Roboto';
 }
 button.btn-md:hover {
     background-color: transparent;
@@ -1051,7 +1099,7 @@ button.btn-md:hover {
 }
 .main_counter_area .single_counter h4{
     color:#fff;
-    font-size:0.8125rem;
+    font-size:12px;
     text-transform: uppercase;
 }
 
@@ -1059,6 +1107,7 @@ button.btn-md:hover {
 
 .main_pricing_area{
     overflow: hidden;
+                      padding: 0px 90px 0px 90px;
 }
 
 .single_pricing{
@@ -1069,8 +1118,13 @@ button.btn-md:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     -ms-transition: all 0.35s ease-in-out;
+    padding: 0px 0px 0px 0px;
+                                              /* margin: 0px -20px 0px -25px; */
 }
 
+.single_pricing:hover{
+    box-shadow: 1px 1px 10px 1px #ccc;
+}
 .pricing_business .pricing_head{
     background:#999999;
 }
@@ -1087,24 +1141,26 @@ button.btn-md:hover {
     padding: 23px 0px;
     background: #035fd8;
     position: relative;
-    height: 150px;
+    height: 80px;
 }
 .pricing_head h3{
-    text-transform:uppercase;
-    color:#fff;
+    /*text-transform:uppercase; */
+    color:#000;
     font-size:24px;
+    line-height: 215px;
 }
 .pricing_head .pricing_price{
-    background: #fff;
-    position: absolute;
-    left: 30%;
-    bottom: -30%;
-    width: 105px;
-    height: 105px;
-    margin:0 auto;
-    padding: 30px 0px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.2);
+  background: #fff;
+position: absolute;
+left: 28%;
+right: 32%;
+bottom: -33%;
+width: 85px;
+height: 86px;
+margin: 0px auto;
+padding: 18px 22px 12px 20px;
+border-radius: 50%;
+box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.2);
 }
 .pricing_head .pricing_price .p_r{
     font-family: 'Roboto', sans-serif;
@@ -1118,18 +1174,21 @@ button.btn-md:hover {
 }
 .pricing_body{
     background: #f4f5f9;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px 20px 0px;
+
 }
 .single_pricing ul{
 
 
 }
 .single_pricing ul li{
-    line-height:45px;
-    height:45px;
-    font-size:18px;
+
+    height:30px;
+    font-size:20px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+      font-size: 14px;
+  padding: 30px;
+  text-align: center;
 }
 
 .single_pricing a{
@@ -1292,7 +1351,7 @@ li .single_team_text p{
     font-size:1rem;
 }
 .main_testimonial .single_testimonial .single_test_author h4 span{
-    font-family: 'ralewayregular';
+    font-family: 'Roboto';
 }
 .main_testimonial .single_testimonial .single_test_author p{
     color:#fff;
@@ -1413,7 +1472,7 @@ li .single_team_text p{
 ======================================================================*/
 .main_trial_area{
     background: url(../images/Footer-Image.jpg) no-repeat top center;
-    overflow: hidden;
+
     background-size: cover;
     color:#fff;
 }
@@ -1437,7 +1496,8 @@ li .single_team_text p{
                         footer section
 ===================================================================*/
 .footer{
-    background: #000000;
+    background: rgba(4, 4, 4, 0.8);
+
 }
 .main_footer{
     overflow: hidden;
@@ -1513,5 +1573,13 @@ li .single_team_text p{
     margin-top: -7px;
     margin-left: -6px;
     text-decoration: none;
+
+}
+
+@@media (min-width:600px) {
+
+}
+
+@@media (max-width:600px) {
 
 }
