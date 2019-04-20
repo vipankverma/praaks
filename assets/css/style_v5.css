@@ -771,7 +771,7 @@ margin-top: -5px;
     max-width: 60%;
     margin: 0 auto;
     padding-bottom: 30px;
-    font-size:20px;
+    font-size:25px;
 
 }
 
@@ -872,6 +872,12 @@ margin-top: -5px;
     padding-left: 30px;
 }
 
+.about_us {
+text-align: justify;
+font-size: 16px;
+
+}
+
 
 /*==================================================================
             service section Style
@@ -881,15 +887,16 @@ margin-top: -5px;
     margin-bottom: 0px;
 }
 .main_service .head_title h2{
-    margin-right: 12%;
+    margin-right: 32%;
     border-right: 6px solid #035fd8;
     color:#fff;
-    padding-right: 5%;
+    padding-right: 3%;
 }
 .main_service .single_service_img {
     position: relative;
     height: 676px;
 }
+
 .main_service .single_service_img img {
     width: 100%;
     height: 631px;
@@ -1152,7 +1159,7 @@ button.btn-md:hover {
 .pricing_head .pricing_price{
   background: #fff;
 position: absolute;
-left: 28%;
+left: 32%;
 right: 32%;
 bottom: -33%;
 width: 85px;
@@ -1395,7 +1402,7 @@ li .single_team_text p{
 
 .main_blog_content .single_blog_area .single_blog_text{
     background: #035fd8;
-    padding: 70px 30px 70px 50px;
+    padding: 73px 30px 70px 50px;
     position: relative;
 }
 .main_blog_content .single_blog_area .single_blog_text.s_b_left:after{
@@ -1431,7 +1438,7 @@ li .single_team_text p{
 }
 .main_blog_content .single_blog_area .single_blog_img img{
     width:100%;
-    height: 100%;
+    height: 108%;
 }
 /*contact section css*/
 .contact{

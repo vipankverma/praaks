@@ -25,7 +25,7 @@ error_reporting(0);
         <link rel="stylesheet" href="assets/css/slick/slick-theme.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
-        <link rel="stylesheet" href="assets/css/bootstrap_v2.css">
+        <link rel="stylesheet" href="assets/css/bootstrap_v4.css">
         <link rel="stylesheet" href="assets/css/bootstrap_v1.min.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
@@ -35,7 +35,7 @@ error_reporting(0);
         <link rel="stylesheet" href="assets/css/plugins.css" />
 
         <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style_v3.css">
+        <link rel="stylesheet" href="assets/css/style_v5.css">
 
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="assets/css/responsive.css" />
