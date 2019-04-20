@@ -1152,7 +1152,7 @@ button.btn-md:hover {
 .pricing_head .pricing_price{
   background: #fff;
 position: absolute;
-left: 28%;
+left: 32%;
 right: 32%;
 bottom: -33%;
 width: 85px;
@@ -1395,7 +1395,7 @@ li .single_team_text p{
 
 .main_blog_content .single_blog_area .single_blog_text{
     background: #035fd8;
-    padding: 70px 30px 70px 50px;
+    padding: 73px 30px 70px 50px;
     position: relative;
 }
 .main_blog_content .single_blog_area .single_blog_text.s_b_left:after{
@@ -1431,7 +1431,7 @@ li .single_team_text p{
 }
 .main_blog_content .single_blog_area .single_blog_img img{
     width:100%;
-    height: 100%;
+    height: 108%;
 }
 /*contact section css*/
 .contact{

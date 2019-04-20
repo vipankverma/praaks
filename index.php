@@ -396,8 +396,8 @@ Our global team and network is our biggest strength. </p>
                                     </a>
                                 </div>
                                 <div class="single_portfolio tile scale-anm web video" >
-                                    <img src="assets/images/Praaks_AIG(4).jpg" alt="" />
-                                    <a href="assets/images/Praaks_AIG(4).jpg" class="portfolio-img">
+                                    <img src="assets/images/Praaks_AIG_4_.jpg" alt="" />
+                                    <a href="assets/images/Praaks_AIG_4_.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
                                             <h3>TATA AIG</h3>
