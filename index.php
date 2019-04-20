@@ -26,7 +26,6 @@ error_reporting(0);
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
         <link rel="stylesheet" href="assets/css/bootstrap_v4.css">
-        <link rel="stylesheet" href="assets/css/bootstrap_v1.min.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
@@ -118,7 +117,7 @@ error_reporting(0);
 
                                                 <h1>DIGITAL TRANSFORMATION CONSULTING</h1>
                                                 <div class="separator"></div>
-                                                <p>We integrate strategy, design, and technology to build the future
+                                                <p>Integrate strategy, design, and technology to build the future
                                                 </p>
                                             </div>
                                         </div>
@@ -127,7 +126,7 @@ error_reporting(0);
 
                                                 <h1>DIGITAL TRANSFORMATION CONSULTING</h1>
                                                 <div class="separator"></div>
-                                                <p>We integrate strategy, design, and technology to build the future
+                                                <p>Integrate strategy, design, and technology to build the future
                                                 </p
                                             </div>
                                         </div>
@@ -396,8 +395,8 @@ Our global team and network is our biggest strength. </p>
                                     </a>
                                 </div>
                                 <div class="single_portfolio tile scale-anm web video" >
-                                    <img src="assets/images/Praaks_AIG(4).jpg" alt="" />
-                                    <a href="assets/images/Praaks_AIG(4).jpg" class="portfolio-img">
+                                    <img src="assets/images/Praaks_AIG_4_.jpg" alt="" />
+                                    <a href="assets/images/Praaks_AIG_4_.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
                                             <h3>TATA AIG</h3>
@@ -777,8 +776,9 @@ Our global team and network is our biggest strength. </p>
                                     <div class="about_image_text">
                                         <h2>ABOUT US</h2>
                                     </div>
-                                    <p>We are a team of curious, empathetic, creative, and energetic individuals who find joy in solving problems. You can consider us your Digital Concierge, your Technology Partner, your Innovation Guide and your Creative Evangelist. Let’s bring your ideas to life! </p>
-
+<div class="about_us">
+                                    <p1>We are a team of curious, empathetic, creative, and energetic individuals who find joy in solving problems. You can consider us your Digital Concierge, your Technology Partner, your Innovation Guide and your Creative Evangelist. Let’s bring your ideas to life! </p1>
+</div>
                                     <a href="" class="btn btn-lg">BROWSE OUR WORK</a>
                                 </div>
                             </div>
@@ -791,6 +791,7 @@ Our global team and network is our biggest strength. </p>
             <!-- service Section -->
             <section id="service" class="service">
                 <div class="container-fluid">
+
                     <div class="row">
                         <div class="main_service">
                             <div class="col-md-6 col-sm-12 no-padding">
@@ -855,7 +856,7 @@ Our global team and network is our biggest strength. </p>
                                                     </figure><!-- End of figure -->
                                                 </div>
                                             </div>
-
+</div>
                                         </div><!-- End of col-sm-12 -->
 
                                     </div>
@@ -870,7 +871,7 @@ Our global team and network is our biggest strength. </p>
                             </div><!-- End of col-sm-6 -->
 
                         </div>
-                    </div><!-- End of row -->
+                    <!-- End of row -->
                 </div><!-- End of Container-fluid -->
             </section><!-- End of service Section -->
 
