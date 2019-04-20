@@ -26,7 +26,6 @@ error_reporting(0);
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
         <link rel="stylesheet" href="assets/css/bootstrap_v4.css">
-        <link rel="stylesheet" href="assets/css/bootstrap_v3.min.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
