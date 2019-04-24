@@ -165,8 +165,8 @@ h5 {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 55px;
-    line-height: 5.5rem;
+    font-size: 3.4375rem;
+    line-height: 11rem;
     color:#035fd8;
     letter-spacing: .4rem;
 
@@ -183,7 +183,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-size:1.714rem;
     line-height: 2.5rem;
-    color:#fff;
+    color:#035fd8;
     font-weight: 400;
 }
 h4 {
@@ -194,6 +194,24 @@ h4 {
     margin-bottom: 1rem;
     color: #000;
 
+}
+
+.clients_hover h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size:1.714rem;
+  line-height: 2.5rem;
+  color:#fff;
+  font-weight: 400;
+
+}
+
+.clients_hover p {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size:1.4rem;
+  line-height: 2.5rem;
+  color:#fff;
+  font-weight: 400;
 }
 /*h5 {
     font-size: 1.125rem;
@@ -355,7 +373,7 @@ Separator
     height: 4px;
     width:40px;
     margin: 10px 0px;
-    background: #eeeeee;
+    background: #035fd8;
     position: relative;
 }
 
@@ -637,7 +655,7 @@ input::-ms-input-placeholder {
     padding-top: 6px;
     padding-bottom: 6px;
     text-transform: uppercase;
-    font-size:14px;
+    font-size:1.16rem;
     color: #000000;
     font-weight: 600;
 }
@@ -690,7 +708,7 @@ margin-top: -5px;
 .scrooldown{
     position: absolute;
     left: 48%;
-    bottom: -2%;
+    bottom: -3%;
     width: 40px;
     height: 40px;
     line-height: 48px;
@@ -727,14 +745,18 @@ margin-top: -5px;
 .home{
     background: url(../images/Praaks-cover-2.jpg) no-repeat center center;
 
+
     width: 100%;
     height: 760px;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
+
 .home_skew_border{
     position: relative;
+
 }
+
 .home_skew_border:after{
     position: absolute;
     left:0;
@@ -818,6 +840,7 @@ margin-top: -5px;
     font-size:3rem;
     transition: all 0.6s;
     right: -60px;
+
 }
 .main_home_slider i.nextprevleft:hover{
     color:#035fd8;
@@ -827,6 +850,12 @@ margin-top: -5px;
     color: #035fd8;
     background: #035fd8;
 }
+
+/* .home_text_area{
+  text-align: center;
+} */
+
+
 
 /*==================================================================
             Feature section Style
@@ -883,8 +912,8 @@ font-size: 16px;
             service section Style
 ====================================================================*/
 .main_service .head_title{
-    padding: 100px 0px 40px 0px;
-    margin-bottom: 0px;
+  padding: 28px 0px 40px 0px;
+margin-bottom: -5px;
 }
 .main_service .head_title h2{
     margin-right: 32%;
@@ -905,6 +934,7 @@ font-size: 16px;
 .main_service .single_service.single_service_text {
     margin-right:0px;
     background: #202020;
+    height: 590px;
 }
 .main_service .single_service.single_service_text .single_service_icon i{
     background: #f4f5f9;
@@ -930,6 +960,7 @@ font-size: 16px;
     color:#999999;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    text-align: right;
 }
 /*======================================================================
                     portfolio section css
@@ -1401,8 +1432,8 @@ li .single_team_text p{
 
 
 .main_blog_content .single_blog_area .single_blog_text{
-    background: #035fd8;
-    padding: 73px 30px 70px 50px;
+    background: #fff;
+    padding: 84px 30px 70px 50px;
     position: relative;
 }
 .main_blog_content .single_blog_area .single_blog_text.s_b_left:after{
@@ -1438,7 +1469,20 @@ li .single_team_text p{
 }
 .main_blog_content .single_blog_area .single_blog_img img{
     width:100%;
-    height: 108%;
+    height: 100%;
+}
+.blog_text{
+text-align: left;
+  color: #000;
+  margin: 0px -14px 0px -8px;
+  font-size: 16px;
+}
+
+.blog_text1{
+  text-align: left;
+    color: #000;
+    margin: 0px 9px 0px -9px;
+    font-size: 16px;
 }
 /*contact section css*/
 .contact{
@@ -1503,8 +1547,11 @@ li .single_team_text p{
                         footer section
 ===================================================================*/
 .footer{
-    background: rgba(4, 4, 4, 0.8);
+    background: rgba(4, 4, 4, 0.4);
 
+}
+.row1{
+  margin:0px -400px 0px -431px;
 }
 .main_footer{
     overflow: hidden;

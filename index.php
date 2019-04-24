@@ -112,24 +112,7 @@ error_reporting(0);
                                                 <p>Integrate strategy, design, and technology to build the future
                                             </div>
                                         </div>
-                                        <div class="single_home_slider">
-                                            <div class="main_home wow fadeInUp" data-wow-duration="700ms">
 
-                                                <h1>DIGITAL TRANSFORMATION CONSULTING</h1>
-                                                <div class="separator"></div>
-                                                <p>Integrate strategy, design, and technology to build the future
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="single_home_slider">
-                                            <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-
-                                                <h1>DIGITAL TRANSFORMATION CONSULTING</h1>
-                                                <div class="separator"></div>
-                                                <p>Integrate strategy, design, and technology to build the future
-                                                </p
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -140,6 +123,11 @@ error_reporting(0);
                     </div>
                 </div>
             </section><!--End of home section -->
+
+            <!-- <section id="home">
+              <div class="home">
+                <div class="overlay">
+                <div class="container"> -->
 
 
             <!--feature section -->
@@ -156,11 +144,11 @@ error_reporting(0);
 
                                     <h4>We Empathize</h4>
                                     <div class="separator3"></div>
-                                    <p> We sit with you to understand your requirements, goals, and imbibe your sensibilities in what you’re trying to achieve.
+                                   <p> We sit with you to understand your requirements, goals, and imbibe your sensibilities in what you’re trying to achieve.
 Empathy is the foundation of our strategy to fulfil your goals.</p>
-                                </div>
-                            </div>
 
+                            </div>
+                          </div>
                             <div class="col-sm-3">
                                 <div class="single_feature">
                                     <div class="single_feature_icon">
@@ -171,7 +159,7 @@ Empathy is the foundation of our strategy to fulfil your goals.</p>
                                     <div class="separator3"></div>
                                     <p>You startup idea or expansion goals, whichever the motivation, we stick to innovation.
 We consistently evolve with time and incorporate the next level in technology and creativity.</p>
-                                </div>
+          </div>
                             </div>
 
                             <div class="col-sm-3">
@@ -183,7 +171,7 @@ We consistently evolve with time and incorporate the next level in technology an
                                     <div class="separator3"></div>
                                     <p>Not only do we work well with other people but, we become a part of your team to ensure that there is no loss of vision, or execution.
 Our global team and network is our biggest strength. </p>
-                                </div>
+                   </div>
                             </div>
 
                             <div class="col-sm-3">
@@ -194,7 +182,7 @@ Our global team and network is our biggest strength. </p>
 
                                     <h4>We Execute</h4>
                                     <div class="separator3"></div>
-                                    <p>We are a highly process oriented team of hands-on individuals.
+                                   <p>We are a highly process oriented team of hands-on individuals.
                                 We always deliver the desired solution timely while ensuring quality, and reliability to disrupt industry standards.</p>
                                 </div>
                             </div>
@@ -369,9 +357,11 @@ Our global team and network is our biggest strength. </p>
                                     <a href="assets/images/Praaks_ISO1.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>I Say Organic</h3>
+              <div class="clients_hover">                              <h3>I Say Organic</h3>
+
                                             <p>Product Strategy, UI/UX Design <p>
-                                        </div>
+                                              </div>
+                                       </div>
                                     </a>
                                 </div>
                                 <div class="single_portfolio tile scale-anm web design" >
@@ -379,8 +369,10 @@ Our global team and network is our biggest strength. </p>
                                     <a href="assets/images/escapex2.png" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>EscapeX</h3>
+          <div class="clients_hover">                                  <h3>EscapeX</h3>
+
                                             <p>Product Strategy, UI/UX Design</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -389,8 +381,10 @@ Our global team and network is our biggest strength. </p>
                                     <a href="assets/images/Jovees3.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>Jovees Herbal</h3>
+      <div class="clients_hover">                                      <h3>Jovees Herbal</h3>
+
                                             <p>UI/UX Design, Branding & Graphic</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -399,8 +393,10 @@ Our global team and network is our biggest strength. </p>
                                     <a href="assets/images/Praaks_AIG_4_.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>TATA AIG</h3>
+  <div class="clients_hover">                                          <h3>TATA AIG</h3>
+
                                             <p>Product Strategy, Mobile Apps </p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -409,8 +405,10 @@ Our global team and network is our biggest strength. </p>
                                     <a href="assets/images/Recent-Work-5.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>Cohoma Coffee Company</h3>
+  <div class="clients_hover">                                          <h3>Cohoma Coffee Company</h3>
+
                                             <p>Web Apps, Digital Marketing</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -420,8 +418,10 @@ Our global team and network is our biggest strength. </p>
                                     <a href="assets/images/HDFC6.png" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>HDFC Ergo </h3>
+  <div class="clients_hover">                                          <h3>HDFC Ergo </h3>
+
                                             <p>UI/UX Design, Digital Marketing</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -430,8 +430,10 @@ Our global team and network is our biggest strength. </p>
                                     <a href="assets/images/GD7.png" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>Golf Digest India</h3>
+<div class="clients_hover">                                            <h3>Golf Digest India</h3>
+
                                             <p>Product Strategy, Digital Marketing</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -441,8 +443,10 @@ Our global team and network is our biggest strength. </p>
                                     <a href="assets/images/Bharanys8.png" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
-                                            <h3>Bharany’s</h3>
+  <div class="clients_hover">                                            <h3>Bharany’s</h3>
+
                                             <p>Enterprise Systems, Branding & Graphic</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -666,9 +670,9 @@ Our global team and network is our biggest strength. </p>
                                                     <p>art/t-shirt</p>
                                                     <h3>T-SHIRT DESIGN</h3>
                                                     <div class="separator2"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
+                              <div class="blog_text1">                      <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
                                                         standard dummy text ever since the 1500s, an unknown printer took a galley of type
-                                                        a scrambled it to make a type specimen book.</p>
+                                                        a scrambled it to make a type specimen book.</p1> </div>
 
                                                     <a href="" class="read_more">Read More >></a>
                                                 </div>
@@ -690,9 +694,9 @@ Our global team and network is our biggest strength. </p>
                                                     <p>art/t-shirt</p>
                                                     <h3>T-SHIRT DESIGN</h3>
                                                     <div class="separator2"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
+                    <div class="blog_text">                                  <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
                                                         standard dummy text ever since the 1500s, an unknown printer took a galley of type
-                                                        a scrambled it to make a type specimen book.</p>
+                                                        a scrambled it to make a type specimen book.</p1></div>
 
                                                     <a href="" class="read_more">Read More >></a>
                                                 </div>
@@ -715,9 +719,9 @@ Our global team and network is our biggest strength. </p>
                                                     <p>art/t-shirt</p>
                                                     <h3>T-SHIRT DESIGN</h3>
                                                     <div class="separator2"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
+            <div class="blog_text">                                          <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
                                                         standard dummy text ever since the 1500s, an unknown printer took a galley of type
-                                                        a scrambled it to make a type specimen book.</p>
+                                                        a scrambled it to make a type specimen book.</p1> </div>
 
                                                     <a href="" class="read_more">Read More >></a>
                                                 </div>
@@ -740,9 +744,9 @@ Our global team and network is our biggest strength. </p>
                                                     <p>art/t-shirt</p>
                                                     <h3>T-SHIRT DESIGN</h3>
                                                     <div class="separator2"></div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
+            <div class="blog_text">                                          <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's
                                                         standard dummy text ever since the 1500s, an unknown printer took a galley of type
-                                                        a scrambled it to make a type specimen book.</p>
+                                                        a scrambled it to make a type specimen book.</p1></div>
 
                                                     <a href="" class="read_more">Read More >></a>
                                                 </div>
@@ -952,15 +956,16 @@ Our global team and network is our biggest strength. </p>
                                                                 <input type="text" class="form-control" name="How did you hear about us" placeholder="How did you hear about us" required="">
                                                             </div>
                                                         </div>
-                                                    </div>
 
 
 
+  <div class="col-sm-12">
                                                     <div class="form-group">
                                                         <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
 
                                                     </div>
-
+</div>
+</div>
                                                     <div class="">
                                                         <input type="submit" value="SUBMIT" class="btn btn-lg">
                                                     </div>
@@ -992,52 +997,54 @@ Our global team and network is our biggest strength. </p>
             <section id="trial" class="trial text-center wow fadeIn"  data-wow-duration="2s" data-wow-dealy="1.5s">
                 <div class="main_trial_area">
                     <div class="video_overlay sections">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="main_trial">
                                     <div class="col-sm-12">
                                         <h2>LET'S GET STARTED</h2>
                                         <h4>Contct Us.
                                             Cancel anytime. No catches.</h4>
-                                        <a href="" class="btn btn-lg">start free trial</a>
+                                        <a href="" class="btn btn-lg">BECOME OUR CLIENT</a>
 
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <section class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="main_footer">
+                                        <div class="row1">
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="flowus">
+                                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                                    <a href=""><i class="fa fa-youtube"></i></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="copyright_text">
+                                                    <p class=" wow fadeInRight" data-wow-duration="1s"></i> <a href="https://bootstrapthemes.co"></a>2016 All Rights Reserved</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </section><!-- End of Trial section -->
 
 
             <!--Footer section-->
-            <section class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="main_footer">
-                                <div class="row">
-                                    <div class="col-sm-6 col-xs-12">
-                                        <div class="flowus">
-                                            <a href=""><i class="fa fa-facebook"></i></a>
-                                            <a href=""><i class="fa fa-twitter"></i></a>
-                                            <a href=""><i class="fa fa-google-plus"></i></a>
-                                            <a href=""><i class="fa fa-instagram"></i></a>
-                                            <a href=""><i class="fa fa-youtube"></i></a>
-                                        </div>
-                                    </div>
 
-                                    <div class="col-sm-6 col-xs-12">
-                                        <div class="copyright_text">
-                                            <p class=" wow fadeInRight" data-wow-duration="1s"></i> <a href="https://bootstrapthemes.co"></a>2016 All Rights Reserved</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!-- End off footer Section-->
 
 
