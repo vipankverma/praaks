@@ -212,6 +212,7 @@ h4 {
   line-height: 2.5rem;
   color:#fff;
   font-weight: 400;
+  margin-left: 0px;
 }
 /*h5 {
     font-size: 1.125rem;
@@ -1476,6 +1477,7 @@ text-align: left;
   color: #000;
   margin: 0px -14px 0px -8px;
   font-size: 16px;
+  margin-left: 0px;
 }
 
 .blog_text1{
@@ -1483,6 +1485,7 @@ text-align: left;
     color: #000;
     margin: 0px 9px 0px -9px;
     font-size: 16px;
+    margin-left: 0px;
 }
 /*contact section css*/
 .contact{
