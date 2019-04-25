@@ -4240,7 +4240,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  margin-right: 117px;
+  margin-right: 58px;
   margin-left: 2px;
 }
 @media (min-width: 768px) {
