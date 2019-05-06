@@ -164,12 +164,14 @@ h5 {
     line-height: 2rem;
 }
 h1 {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 3.4375rem;
     line-height: 11rem;
-    color:#035fd8;
+    color: #035fd8;
     letter-spacing: .4rem;
+      /* height: 133px; */
+      /* -webkit-text-stroke: 1px #d0f7f1; */
 
 }
 h2 {
@@ -194,6 +196,7 @@ h4 {
     line-height: 2rem;
     margin-bottom: 1rem;
     color: #000;
+    padding: 0px 9px 0px 0px;
 
 }
 
@@ -1026,6 +1029,7 @@ button.btn-md:hover {
     height: auto;
     display: inline-block;
     width: 100%;
+
 }
 
 .single_portfolio{
@@ -1162,9 +1166,7 @@ button.btn-md:hover {
                                               /* margin: 0px -20px 0px -25px; */
 }
 
-.single_pricing:hover{
-    box-shadow: 1px 1px 10px 1px #ccc;
-}
+
 
 .pricing_business .pricing_head{
     background:#999999;
@@ -1208,6 +1210,32 @@ box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.2);
     font-weight: 700;
     font-size:2.822rem;
 }
+.single_pricing:hover{
+    box-shadow: 1px 1px 10px 1px #ccc;
+}
+
+.home_images img:hover{
+
+      animation: shake 1s;
+  animation-iteration-count: infinite;
+
+  }
+  @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
 .pricing_head .pricing_price .m_t{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -1441,7 +1469,7 @@ li .single_team_text p{
 }
 .main_blog_content .single_blog_area .single_blog_text.s_b_left:after{
     position: absolute;
-    left:-8%;
+    left:-8.5%;
     top:45%;
     content:"";
     width: 0;
@@ -1450,9 +1478,11 @@ li .single_team_text p{
     border-right: 30px solid #035fd8;;
     border-bottom: 30px solid transparent;
 }
+
+
 .main_blog_content .single_blog_area .single_blog_text.s_b_right:after{
     position: absolute;
-    right: -8%;
+    right: -8.5%;
     top:45%;
     content:"";
     z-index: 9;
@@ -1517,6 +1547,7 @@ text-align: left;
     background: #fff;
     overflow: hidden;
     box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.01);
+    padding-left: 33px;
 }
 .single_contact_info{
     margin-bottom:45px;

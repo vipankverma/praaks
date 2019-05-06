@@ -18,6 +18,8 @@ error_reporting(0);
 
         <!--Google Fonts link-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet"> -->
+
 
 
         <link rel="stylesheet" href="assets/css/iconfont.css">
@@ -27,6 +29,7 @@ error_reporting(0);
         <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
         <link rel="stylesheet" href="assets/css/bootstrap_v4.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
         <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
 
@@ -34,12 +37,16 @@ error_reporting(0);
         <link rel="stylesheet" href="assets/css/plugins.css" />
 
         <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style_v5.css">
+        <link rel="stylesheet" href="assets/css/style_v6.css">
 
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
+
+
     </head>
     <body data-spy="scroll" data-target=".navbar-collapse">
 
@@ -210,7 +217,7 @@ Our global team and network is our biggest strength. </p>
                                     <div class="pricing_head">
                                         <h3>Innovate</h3>
                                         <div class="pricing_price">
-                                            <div class="p_r text-center"><img src="assets/images/Innovate.png"></div>
+                                            <div class="p_r text-center"><div class="home_images"> <img src="assets/images/Innovate.png"></div></div>
 
                                         </div>
                                     </div>
@@ -296,7 +303,7 @@ Our global team and network is our biggest strength. </p>
                                     <div class="pricing_head">
                                         <h3>Sustain</h3>
                                         <div class="pricing_price">
-                                            <div class="p_r text-center"><img src="assets/images/Sustain.png"></div>
+                                            <div class="p_r text-center"><img src="assets/images/Sustain.png" class="wow pulse"></div>
                                             <div class="m_t text-center"></div>
                                         </div>
                                     </div>
@@ -378,7 +385,7 @@ Our global team and network is our biggest strength. </p>
                                 </div>
                                 <div class="single_portfolio tile scale-anm flyers design">
                                     <img src="assets/images/Jovees3.jpg" alt="" />
-                                    <a href="assets/images/Jovees3.jpg" class="portfolio-img">
+                                    <a href="assets/images/Recent-Work-8.jpg" class="portfolio-img">
                                         <div class="grid_item_overlay">
                                             <div class="separator4"></div>
       <div class="clients_hover">                                      <h3>Jovees Herbal</h3>
@@ -522,10 +529,11 @@ Our global team and network is our biggest strength. </p>
                                 <div class="single_study_right_img">
                                     <div class="col-sm-6">
                                         <div class="single_study_img">
-                                            <img src="assets/images/Case-Study.jpg" alt="" />
+                                            <img src="assets/images/Case-Study2.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div><!-- End off row -->
@@ -662,7 +670,7 @@ Our global team and network is our biggest strength. </p>
                                         <div class="row">
                                             <div class="col-sm-6 no-padding">
                                                 <div class="single_blog_img">
-                                                    <img src="assets/images/Our-Blog-1.jpg" alt="" />
+                                                    <img src="assets/images/Our-Blog-1.jpg" alt="" class="wow fadeInUp"/>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 no-padding">
@@ -686,7 +694,7 @@ Our global team and network is our biggest strength. </p>
                                         <div class="row">
                                             <div class="col-sm-6 no-padding">
                                                 <div class="single_blog_img">
-                                                    <img src="assets/images/Our-Blog-2.jpg" alt="" />
+                                                    <img src="assets/images/Our-Blog-2.jpg" alt="" class="wow fadeInUp"/>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 no-padding">
@@ -710,7 +718,7 @@ Our global team and network is our biggest strength. </p>
 
                                             <div class="col-sm-6 col-sm-push-6 no-padding">
                                                 <div class="single_blog_img">
-                                                    <img src="assets/images/Our-Blog-3.jpg" alt="" />
+                                                    <img src="assets/images/Our-Blog-3.jpg" alt="" class="wow fadeInUp" />
                                                 </div>
                                             </div>
 
@@ -736,7 +744,7 @@ Our global team and network is our biggest strength. </p>
                                         <div class="row">
                                             <div class="col-sm-6 col-sm-push-6 no-padding">
                                                 <div class="single_blog_img">
-                                                    <img src="assets/images/Our-Blog-4.jpg" alt="" />
+                                                    <img src="assets/images/Our-Blog-4.jpg" alt="" class="wow fadeInUp" />
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-sm-pull-6 no-padding">
@@ -771,7 +779,7 @@ Our global team and network is our biggest strength. </p>
                         <div class="main_history">
                             <div class="col-sm-6">
                                 <div class="about_image_1">
-                                    <img src="assets/images/AboutUs.jpg" alt="" />
+                                    <img src="assets/images/AboutUs.jpg" alt="" class="wow pulse" />
                                 </div>
                             </div>
 
@@ -870,7 +878,7 @@ Our global team and network is our biggest strength. </p>
                             <div class="col-md-6 col-sm-12 no-padding">
                                 <figure class="single_service single_service_img">
                                     <div class="overlay-img"></div>
-                                    <img src="assets/images/Services.jpg" alt="" />
+                                    <img src="assets/images/Services.jpg" alt="" class="wow fadeInUp" />
                                 </figure><!-- End of figure -->
                             </div><!-- End of col-sm-6 -->
 
@@ -953,9 +961,31 @@ Our global team and network is our biggest strength. </p>
                                                         </div>
                                                         <div class="col-sm-12">
                                                             <div class="form-group">
+
                                                                 <input type="text" class="form-control" name="How did you hear about us" placeholder="How did you hear about us" required="">
-                                                            </div>
+
+
                                                         </div>
+                                                      </div>
+                                                      <!-- <div class="col-sm-12">
+                                                          <div class="form-group">
+                                                      <label for="hear">How did you hear about us?  </label>
+                                                      <input type="text" class="form-control" name="How did you hear about us" placeholder="How did you hear about us" required="">
+            <! <select class="contact-drop-down"  name="hear" id="hear">
+                <option>How did you hear about us</option>
+                <option value="1">Existing Partner</option>
+                <option value="2">Word of mouth</option>
+                <option value="3">Brochure</option>
+                <option value="4">Email mailshot</option>
+                <option value="5">Google</option>
+                <option value="6">Yahoo</option>
+                <option value="7">Bing</option>
+                <option value="8">Other search engine</option>
+                <option value="9">Other</option> -->
+            <!-- </select> -->
+<!-- </div>
+</div> -->
+
 
 
 
@@ -1066,6 +1096,39 @@ Our global team and network is our biggest strength. </p>
         </div>
 
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+
+        <script type="text/javascript">
+
+        jQuery(window).load(function(){
+
+          jQuery("#slick-slide10").click(function(){
+                    jQuery(".single_study_img").html('<img src="assets/images/study.jpg" alt="">')
+jQuery(".single_study_img").fadeOut()
+            ;});
+  //           jQuery("#slick-slide10").click(function(){
+  //   jQuery(".single_study_img").fadeOut()
+  // });
+
+
+          jQuery("#slick-slide11").click(function(){
+                    jQuery(".single_study_img").php('<img src="assets/images/study.jpg" alt="">')
+                    jQuery(".single_study_img").fadeOut()
+                    // });
+                    ;});
+          //           jQuery("#slick-slide11").click(function(){
+          //   jQuery(".single_study_img").fadeOut()
+          // });
+
+          jQuery("#slick-slide12").click(function(){
+                    jQuery(".single_study_img").html('<img src="assets/images/Case-Study2.jpg" alt="">')
+jQuery(".single_study_img").fadeOut()
+                      ;});
+            //           jQuery("#slick-slide12").click(function(){
+            //   jQuery(".single_study_img").fadeOut()
+            // });
+        });
+      </script>
+
         <script src="assets/js/vendor/bootstrap.min.js"></script>
 
         <script src="assets/js/jquery.magnific-popup.js"></script>
@@ -1081,5 +1144,15 @@ Our global team and network is our biggest strength. </p>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
 
+        <script src="assets/js/wow.min.js"> </script>
+        <script>
+        new WOW().init();
+        </script>
+
+        </script>
+
     </body>
+
+
+
 </html>

@@ -185,6 +185,10 @@
 
     }());
 
+
+    
+
+
     Slick.prototype.activateADA = function() {
         var _ = this;
 
