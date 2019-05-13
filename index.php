@@ -4,8 +4,8 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!-->
 <?php
-//include("studentconn.php");
-error_reporting(0);
+ include("connection.php");
+ error_reporting(0);
  ?>
 <html class="no-js" lang=""> <!--<![endif]-->
     <head>
@@ -112,11 +112,11 @@ error_reporting(0);
                                 <div class="col-sm-12 ">
                                     <div class="main_home_slider text-center">
                                         <div class="single_home_slider">
-                                            <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                            <div class="main_home wow fadeInUp wow fadeInLeft" data-wow-duration="700ms">
                                                 <h1>DIGITAL TRANSFORMATION CONSULTING</h1>
                                                 <div class="separator"></div>
 
-                                                <p>Integrate strategy, design, and technology to build the future
+                                                <p>Integrate strategy, design, and technology to build the future</p>
                                             </div>
                                         </div>
 
@@ -936,7 +936,7 @@ Our global team and network is our biggest strength. </p>
 
                                     <div class="col-sm-6">
                                         <div class="single_contant_left padding-top-90 padding-bottom-90">
-                                            <form action="#" id="formid">
+                                            <form action="contact_handler.php" id="formid">
                                                 <div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
 
                                                     <div class="row">
@@ -956,13 +956,13 @@ Our global team and network is our biggest strength. </p>
                                                         </div>
                                                         <div class="col-sm-12">
                                                             <div class="form-group">
-                                                                <input type="text" class="form-control" name="Comapny" placeholder="Company" required="">
+                                                                <input type="text" class="form-control" name="company" placeholder="Company" required="">
                                                             </div>
                                                         </div>
                                                         <div class="col-sm-12">
                                                             <div class="form-group">
 
-                                                                <input type="text" class="form-control" name="How did you hear about us" placeholder="How did you hear about us" required="">
+                                                                <input type="text" class="form-control" name="Howdidyouhearaboutus" placeholder="How did you hear about us" required="">
 
 
                                                         </div>
@@ -1003,7 +1003,6 @@ Our global team and network is our biggest strength. </p>
                                             </form>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -1013,10 +1012,11 @@ Our global team and network is our biggest strength. </p>
             <?php
             $fn = $_GET['name'];
             $em = $_GET['email'];
-            $sj = $_GET['subject'];
+            $co = $_GET['company'];
+            $sj = $_GET['Howdidyouhearaboutus'];
             $ms = $_GET['message'];
 
-            $query = "INSERT INTO PRAAKS_DATABASE VALUES ('$fn','$em','$sj','$ms')";
+            $query = "INSERT INTO praaks VALUES ('$fn','$em','$co','$sj','$ms')";
             $data = mysqli_query($conn, $query);
             if ($data) {
               echo "Submit Successfully";
@@ -1103,7 +1103,7 @@ Our global team and network is our biggest strength. </p>
 
           jQuery("#slick-slide10").click(function(){
                     jQuery(".single_study_img").html('<img src="assets/images/study.jpg" alt="">')
-jQuery(".single_study_img").fadeOut()
+
             ;});
   //           jQuery("#slick-slide10").click(function(){
   //   jQuery(".single_study_img").fadeOut()
@@ -1112,7 +1112,7 @@ jQuery(".single_study_img").fadeOut()
 
           jQuery("#slick-slide11").click(function(){
                     jQuery(".single_study_img").php('<img src="assets/images/study.jpg" alt="">')
-                    jQuery(".single_study_img").fadeOut()
+
                     // });
                     ;});
           //           jQuery("#slick-slide11").click(function(){
@@ -1121,7 +1121,6 @@ jQuery(".single_study_img").fadeOut()
 
           jQuery("#slick-slide12").click(function(){
                     jQuery(".single_study_img").html('<img src="assets/images/Case-Study2.jpg" alt="">')
-jQuery(".single_study_img").fadeOut()
                       ;});
             //           jQuery("#slick-slide12").click(function(){
             //   jQuery(".single_study_img").fadeOut()
